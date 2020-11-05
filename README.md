@@ -2,12 +2,8 @@
 <h3 align="center">I am passionate about automation and caffeine, with enough of both you can do anything</h3>
 <br>
 <div align="center"> 
-Visitors
-<br>
-
-![Visitor Count](https://profile-counter.glitch.me/JBornman/count.svg)
-
-
+ 
+![Visits Badge](https://badges.pufler.dev/visits/JBornman/JBornman?style=for-the-badge)
 
 ![GitHub metrics](https://metrics.lecoq.io/JBornman)  
 
