@@ -19,18 +19,8 @@ First release of TiBot
 
 ### What am I currently reading ?
 <p>
-  <img style="fill: green;" src="https://jb-ornman.vercel.app/api/book" alt="GoodReads" height="100" width="350"/>
+  <img src="https://jb-ornman.vercel.app/api/book" alt="GoodReads" height="100" width="350"/>
 </p>
-
-
-<p align="left">
-<a href="https://twitter.com/borries925" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/twitter.svg" alt="Twitter - Jaco Profile" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/jaco-bornman-99414677/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg" alt="LinkedIn - Jaco Profile" height="30" width="40" /></a>
-<a href="https://www.facebook.com/jaco.bornman.9/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/facebook.svg" alt="Facebook - Jaco Profile" height="30" width="40" /></a>
-<a href="https://www.instagram.com/bornman.jaco/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/instagram.svg" alt="Instagram - Jaco Profile" height="30" width="40" /></a>
-<a href="https://www.goodreads.com/user/show/57158879-jaco" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/goodreads.svg" alt="Goodreads - Jaco Profile" height="30" width="40" /></a>
-</p>
-
 
 <h2  align="center"  style="font-weight: bold">Stats</h2>
 <div align="left">
@@ -42,3 +32,12 @@ First release of TiBot
  ![Visits Badge](https://badges.pufler.dev/visits/JBornman/JBornman?style=for-the-badge)
 </div>
 
+<h2  align="center"  style="font-weight: bold">Socials</h2>
+
+<p align="left">
+<a href="https://twitter.com/borries925" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/twitter.svg" alt="Twitter - Jaco Profile" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/jaco-bornman-99414677/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg" alt="LinkedIn - Jaco Profile" height="30" width="40" /></a>
+<a href="https://www.facebook.com/jaco.bornman.9/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/facebook.svg" alt="Facebook - Jaco Profile" height="30" width="40" /></a>
+<a href="https://www.instagram.com/bornman.jaco/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/instagram.svg" alt="Instagram - Jaco Profile" height="30" width="40" /></a>
+<a href="https://www.goodreads.com/user/show/57158879-jaco" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/goodreads.svg" alt="Goodreads - Jaco Profile" height="30" width="40" /></a>
+</p>
