@@ -1,3 +1,4 @@
+from asyncio import log
 from flask import Flask, Response, jsonify, render_template
 from base64 import b64encode
 import feedparser
@@ -11,9 +12,10 @@ import json
 import os
 import random
 
-GOODREADS_RSS_URL = os.getenv("GOODREADS_RSS_URL")
+GOODREADS_RSS_URL = "https://www.goodreads.com/user/updates_rss/57158879?key=bMA1AFOtw2IX8thoBzGb8eg_XZ5ELYVF0geOzTLMpdER9LWD"
 
-PROGRESS_REGEX = r".*<img .* alt=\"([^\"]*) by ([^\"]*)\".*src=\"([^\"]*)\".*.* is on page ([0-9]*) of ([0-9]*) of <a.*"
+# PROGRESS_REGEX = r".*<img .* alt=\"([^\"]*) by ([^\"]*)\".*src=\"([^\"]*)\".*.* is on page ([0-9]*) of ([0-9]*) of <a.*"
+PROGRESS_REGEX = r".*<img .* alt=\"([^\"]*) by ([^\"]*)\".*src=\"([^\"]*)\".*.* is ([0-9]*)% done with <a.*"
 READ_REGEX = r".*<img .* alt=\"([^\"]*) by ([^\"]*)\".*src=\"([^\"]*)\".*has read.*"
 
 def loadImageB64(url):
@@ -43,6 +45,8 @@ def last_activity(path):
     activityFeed = feedparser.parse(GOODREADS_RSS_URL)
     data = ""
     entries = activityFeed.entries
+    print('data')
+    print(entries)
     pr = re.compile(PROGRESS_REGEX)
     rr = re.compile(READ_REGEX)
     book, author, img, progress = '', '', '', ''
@@ -51,8 +55,8 @@ def last_activity(path):
         print(i["summary"])
         res = pr.search(i["summary"])
         if res:
-            book, author, img = res.group(1,2,3)
-            progress = int(100*int(res.group(4))/int(res.group(5)))
+            book, author, img, progress = res.group(1,2,3,4)
+            # progress = int(100*int(res.group(4))/int(res.group(5)))
         else:
             res = rr.search(i["summary"])
             if res:
