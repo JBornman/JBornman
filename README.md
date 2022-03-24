@@ -7,7 +7,7 @@
 ### What am I currently working on?
 - [TiBot](https://github.com/JBornman/telegram-inspire-bot)  🤖  
 First release of TiBot  
-![Progress](https://progress-bar.dev/35/)
+![Progress](https://progress-bar.dev/50/)
 
 ### What I want to take on next?
 - Visual Studio Code Theme 🎨
