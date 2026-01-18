@@ -7,14 +7,15 @@
 ### What am I currently working on?
 - [TiBot](https://github.com/JBornman/telegram-inspire-bot)  🤖  
 First release of TiBot  
-![Progress](https://geps.dev/progress/85)
+![Progress](https://geps.dev/progress/91)
 
 ### What I want to take on next?
-- Visual Studio Code Theme 🎨
+- Proper clean dotfiles repo
 
 ### Non dev hobbies/interests?
 - Coffee brewing styles and methods ☕
 - Mechanical Keyboards ⌨️
+- Amateur Photography 📷
 - Most things horror related 🎃 
 
 ### What am I currently reading ?
