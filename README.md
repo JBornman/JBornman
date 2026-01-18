@@ -18,11 +18,6 @@ First release of TiBot
 - Amateur Photography 📷
 - Most things horror related 🎃 
 
-### What am I currently reading ?
-<p>
-  <img src="https://jb-ornman.vercel.app/api/book" alt="GoodReads" height="100" width="350"/>
-</p>
-
 <h2  align="center"  style="font-weight: bold">Stats</h2>
 <div align="left">
 
